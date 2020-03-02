@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row{
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 24px;
+}
+.background1{
+  background-color: #2C3E50;
+}
+#titolo{
+  font-size: 1.75em;
+  color: white;
+}
+ul {
+list-style-type: none;
+}
+.menu{
+  font-size: 1.30em;
+  color: white;
+}
+li{
+  display: inline-block;
+  padding-right: 24px;
+}
+.background2{
+  background-color: #1ABC9C;
+}
+img{
+  padding-top: 24px;
+  padding-bottom: 24px;
+  vertical-align: middle;
+  border-style: none;
+  width: 15rem;
+}
+h1{
+  font-size: 4rem;
+  color: white;
+  text-align: center;
+  padding-bottom: 24px;
+}
+span{
+  font-size: 2rem;
+  color: white;
+
+}
