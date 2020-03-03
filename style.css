@@ -155,11 +155,11 @@ p{
   font-size: 24px;
   padding-bottom: 24px;
 }
-.centratura button{
+button{
   background-color: #1ABC9C;
   border: solid 3px white;
   border-radius: 5px;
 }
-.centratura button span{
+ button span{
   padding: 24px;
 }
