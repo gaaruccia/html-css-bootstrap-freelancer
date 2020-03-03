@@ -3,24 +3,37 @@
   padding: 0;
   box-sizing: border-box;
 }
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
 .row{
   max-width: 1170px;
   margin: 0 auto;
   padding: 24px;
+  position: relative;
+}
+nav{
+  position: fixed;
+  width: 100%;
+  z-index: 999;
 }
 .background1{
   background-color: #2C3E50;
 }
 #titolo{
-  font-size: 1.75em;
+  font-size: 24px;
   color: white;
+  float: left;
 }
 ul {
 list-style-type: none;
 }
 .menu{
-  font-size: 1.30em;
+  font-size: 20px;
   color: white;
+  float: left;
 }
 li{
   display: inline-block;
@@ -28,22 +41,65 @@ li{
 }
 .background2{
   background-color: #1ABC9C;
+  padding-top: 144px;
 }
-img{
+.immagine{
   padding-top: 24px;
   padding-bottom: 24px;
-  vertical-align: middle;
-  border-style: none;
-  width: 15rem;
+}
+.immagine img{
+  height: 200px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 h1{
-  font-size: 4rem;
+  font-size: 48px;
   color: white;
   text-align: center;
   padding-bottom: 24px;
 }
-span{
-  font-size: 2rem;
+.linee-stella{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 24px;
+}
+.linea1{
+  border: solid white 4px;
+  width: 72px;
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-157%, -50%);
+}
+.linea2{
+  border: solid white 4px;
+  width: 72px;
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(57%, -50%);
+}
+.linee-stella span{
+  font-size: 48px;
   color: white;
-
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.titolodue{
+  margin-bottom: 48px;
+  padding-top: 24px;
+  text-align: center;
+}
+.titolodue span{
+  color: white;
+  font-size: 24px;
+  padding-right: 12px;
 }
