@@ -136,12 +136,12 @@ h2{
   float: left;
   padding-top: 24px;
   padding-right: 24px;
+  padding-bottom: 24px;
 }
 .contenitoreimg2 img{
   float: left;
   padding-top: 24px;
-  padding-right: 24px;
-  padding-bottom: 48px;
+  padding-bottom: 24px;
 }
 .titolo2 h2{
   font-size: 48px;
@@ -162,4 +162,20 @@ button{
 }
  button span{
   padding: 24px;
+}
+form{
+  padding-bottom: 48px;
+}
+.floattanza{
+  color: white;
+  float: left;
+  text-align: center;
+}
+.floattanza i{
+  font-size: 24px;
+  color: white;
+  padding-right: 24px;
+}
+.background3{
+  background-color: #1a252f
 }
