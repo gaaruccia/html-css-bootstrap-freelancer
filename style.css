@@ -69,7 +69,6 @@ h1{
 .linea1{
   border: solid white 4px;
   width: 72px;
-  float: left;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -78,7 +77,6 @@ h1{
 .linea2{
   border: solid white 4px;
   width: 72px;
-  float: left;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -87,19 +85,81 @@ h1{
 .linee-stella span{
   font-size: 48px;
   color: white;
-  float: left;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.titolodue{
+.centratura{
   margin-bottom: 48px;
   padding-top: 24px;
   text-align: center;
+  color: white;
+  font-size: 24px;
 }
-.titolodue span{
+.sottotitolo span{
   color: white;
   font-size: 24px;
   padding-right: 12px;
+}
+h2{
+  font-size: 48px;
+  color: #2c3e50;
+  text-align: center;
+  padding-bottom: 24px;
+}
+.linea3{
+  border: solid #2c3e50 4px;
+  width: 72px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-157%, -50%);
+}
+.linea4{
+  border: solid #2c3e50 4px;
+  width: 72px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(57%, -50%);
+}
+.linee-stella2 span{
+  font-size: 48px;
+  color: #2c3e50;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.contenitoreimg img{
+  float: left;
+  padding-top: 24px;
+  padding-right: 24px;
+}
+.contenitoreimg2 img{
+  float: left;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 48px;
+}
+.titolo2 h2{
+  font-size: 48px;
+  color: white;
+  text-align: center;
+  padding-bottom: 24px;
+}
+p{
+  color: white;
+  float: left;
+  font-size: 24px;
+  padding-bottom: 24px;
+}
+.centratura button{
+  background-color: #1ABC9C;
+  border: solid 3px white;
+  border-radius: 5px;
+}
+.centratura button span{
+  padding: 24px;
 }
